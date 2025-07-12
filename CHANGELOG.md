@@ -2,6 +2,10 @@
 
 All notable changes to `transformers-php` will be documented in this file.
 
+## 0.5.5 - 2025-07-12
+
+**Full Changelog**: https://github.com/kyriansfriends/transformers/compare/0.5.4...0.5.5
+
 ## 0.5.4 - 2025-07-12
 
 **Full Changelog**: https://github.com/kyriansfriends/transformers/commits/0.5.4
@@ -89,6 +93,7 @@ I'm excited to announce the latest version of TransformersPHP, packed with new f
   
   
   
+  
     ```
 - **New Pipeline: Automatic Speech Recognition (ASR)** - Supports models like `wav2vec` and `whisper` for transcribing speech to text. If a specific model is not officially supported, please open an issue with a feature request.
   
@@ -100,6 +105,7 @@ I'm excited to announce the latest version of TransformersPHP, packed with new f
     // [
     //   "text" => "We, the people of the United States, ..."
     // ]
+    
     
     
     
@@ -120,6 +126,7 @@ I'm excited to announce the latest version of TransformersPHP, packed with new f
     $image = Image::read($url);
   $resizedImage = $image->resize(100, 100);
   // $image remains unchanged
+  
   
   
   
@@ -296,11 +303,13 @@ composer require codewithkyrian/transformers
 
 
 
+
 ```
 And you must initialize the library to download neccesary libraries for ONNX
 
 ```bash
 ./vendor/bin/transformers install
+
 
 
 
@@ -328,6 +337,7 @@ To ensure a smooth user experience, especially with larger models, we recommend 
 
 ```bash
 ./vendor/bin/transformers download <model_identifier>
+
 
 
 
