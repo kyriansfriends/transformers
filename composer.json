@@ -1,5 +1,5 @@
 {
-  "name": "codewithkyrian/transformers",
+  "name": "kyriansfriends/transformers",
   "description": "State-of-the-art Machine Learning for PHP. Run Transformers in PHP",
   "keywords": [
     "transformers",
@@ -11,6 +11,9 @@
     "php",
     "codewithkyrian"
   ],
+  "replace": {
+    "codewithkyrian/transformers": "^0.5.1"
+  },
   "type": "platform-package",
   "require": {
     "php": "^8.1",
