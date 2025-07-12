@@ -6,10 +6,6 @@
     <p>Matlib v1.1 version of Transformers PHP</p>
 </h3>
 
-<p style="text-align:center">
-   <a href="https://github.com/CodeWithKyrian/transformers-php">original CodeWithKyrian package</a>
-</p>
-
 <p align="center">
 <a href="https://packagist.org/packages/codewithkyrian/transformers"><img src="https://img.shields.io/packagist/dt/codewithkyrian/transformers" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/codewithkyrian/transformers"><img src="https://img.shields.io/packagist/v/codewithkyrian/transformers" alt="Latest Stable Version"></a>
@@ -23,6 +19,10 @@ TransformersPHP is designed to be functionally equivalent to the Python library,
 TransformersPHP uses [ONNX Runtime](https://onnxruntime.ai/) to run the models, which is a high-performance scoring engine for Open Neural Network Exchange (ONNX) models. You can easily convert any PyTorch or TensorFlow model to ONNX and use it with TransformersPHP using [🤗 Optimum](https://github.com/huggingface/optimum#onnx--onnx-runtime).
 
 TO learn more about the library and how it works, head over to our [extensive documentation](https://codewithkyrian.github.io/transformers-php/introduction).
+
+<p>
+   <a href="https://github.com/CodeWithKyrian/transformers-php">original CodeWithKyrian package</a>
+</p>
 
 ## Quick tour
 
