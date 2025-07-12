@@ -3,8 +3,12 @@
 </h1>
 
 <h3 align="center">
-    <p>State-of-the-art Machine Learning for PHP</p>
+    <p>Matlib v1.1 version of Transformers PHP</p>
 </h3>
+
+<p style="text-align:center">
+   <a href="https://github.com/CodeWithKyrian/transformers-php">original CodeWithKyrian package</a>
+</p>
 
 <p align="center">
 <a href="https://packagist.org/packages/codewithkyrian/transformers"><img src="https://img.shields.io/packagist/dt/codewithkyrian/transformers" alt="Total Downloads"></a>
@@ -92,7 +96,7 @@ $pipe = pipeline('translation', 'Xenova/distilbert-base-uncased-finetuned-sst-2-
 You can install the library via Composer. This is the recommended way to install the library.
 
 ```bash
-composer require codewithkyrian/transformers
+composer require kyriansfriends/transformers
 ```
 
 > [!CAUTION]
